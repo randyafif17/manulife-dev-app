@@ -1,0 +1,49 @@
+name: manulife
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  youtube_player_flutter: ^8.1.1
+  youtube: ^1.0.1
+  flutter_screenutil: ^5.6.0
+  google_fonts: ^3.0.1
+  webview_windows: ^0.2.1
+  dart_vlc: ^0.2.1
+  intl: ^0.18.0
+  get_storage: ^2.0.3
+  flutter_keyboard_visibility: ^5.4.0
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/icons/nasabah/
+    - assets/icons/pemasar/
+    - assets/video/
+
+  fonts:
+      - family: Helvetica Neue
+        fonts:
+          - asset: assets/fonts/Helvetica Neue UltraLight.otf
+            weight: 300
+          - asset: assets/fonts/Helvetica Neue W01 66 Medium It.otf
+            weight: 400
+          - asset: assets/fonts/Helvetica Neue W01 66 Medium It.otf
+            weight: 500
+          - asset: assets/fonts/Helvetica Neue Medium Extended.otf
+            weight: 600
+          - asset: assets/fonts/Helvetica Neue LTW0697BlkCnObl.otf
+            weight: 700
